@@ -1,9 +1,10 @@
-@font-face {
-  font-family: 'Rainbow Bridge Personal Use Regular';
-  src: url('Rainbowbridge.ttf') format('truetype');
+#myCanvas {
+  background-image: url('/Users/michaelmontalbano/Desktop/jumpinjellyfish/assets/background.gif');
+  background-size: cover;
 }
 
 h1 {
   font-family: fantasy;
-  margin-left: 300px;
+  margin-left: 350px;
+  margin-top: 30px;
 }
