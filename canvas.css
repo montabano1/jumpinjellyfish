@@ -2,9 +2,16 @@
   background-image: url('/Users/michaelmontalbano/Desktop/jumpinjellyfish/assets/background.gif');
   background-size: cover;
 }
-
+.header {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  margin-left: 600px;
+  margin-top: 10px;
+  font-size: 24px;
+}
 h1 {
   font-family: fantasy;
-  margin-left: 350px;
-  margin-top: 30px;
 }
