@@ -17,11 +17,20 @@
   </div>
   <canvas id="myCanvas" width="960" height="480"></canvas>
   <div class="footer">
+    <div class='links'>
     <a href="http://www.michaelmontalbano.com/"> MY SITE</a>
     <strong>|</strong>
     <a href="https://www.linkedin.com/in/michael-montalbano-47832114/">LINKED IN</a>
     <strong>|</strong>
     <a href="https://github.com/montabano1/jumpinjellyfish">GITHUB</a>
+  </div>
+  <div class="volume-control">
+    <audio src="assets/coral.mp3" id="coral"></audio>
+    <audio src="assets/lose.wav" id="lose"></audio>
+    <audio src="assets/boing.mp3" id="bounce"></audio>
+    <input id="vol-control" type="range" min="0" max="100" step="1" value=20></input>
+    <button id='mute-button' type="button" name="button">MUTE</button>
+  </div>
   </div>
 </main>
 <script type="application/javascript" src="lib/bundle.js"></script>
