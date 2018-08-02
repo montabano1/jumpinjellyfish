@@ -31,5 +31,5 @@ if (clickpos[0] > this.pos[0] && clickpos[0] < this.pos[0] + this.width + 60 &&
 ## Difficulty
 I intentionally designed the levels to have increasing difficulty, and the second to last level suggests clicking the jellyfish but it isn't essential to complete the level. The final level however is very difficult and requires clicking and planning.
 
-##Levels
+## Levels
 I was able to have the user press enter after completing a level which would start the next level. I accomplished this by having the levels be in an array and the animate function is constantly drawing the level, but by pressing enter once the level completed modal pops up would call shift on the levels array.
