@@ -7,6 +7,12 @@ head {
 main {
   margin: auto;
   height: 600px;
+  width: 100%;
+  background-image: url('assets/sand.jpg');
+}
+.everything {
+  margin: auto;
+  height: 600px;
   width: 960px;
 }
 .header {
