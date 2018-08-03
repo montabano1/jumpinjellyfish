@@ -12,7 +12,7 @@ jumpinjellyfish is strategy game that also requires skilled timing. The goal is 
 ## How it works
 I used vanilla JavaScript with canvas for my game. The game is centered around collision detection, which was a bit of a challenge, since the objects are animated. Each object had a unique size at any given time using its current velocity, so there were a lot of specifics based on what the hero and jellyfish looked like at the moment of collision. Another tough but fun challenge was getting the jellyfish to freeze on being clicked, which was tough because they are not technically objects, they are a part of the canvas object. I did this using an event listener for click and recognizing (through a debugger) that each event actually has a pageX and pageY location, which I was able to match up with the jellyfish's location similarly to the collision detection with the hero:
 
-```
+```js
 canvas.addEventListener('mousedown', function(event) {
   const x = event.pageX - canvasLeft;
   const y = event.pageY - canvasTop;
