@@ -6,9 +6,9 @@ head {
 }
 main {
   margin: auto;
-  height: 100vh;
   width: 100%;
   background-image: url('assets/sand.jpg');
+  background-size: cover;
 }
 .everything {
   margin: auto;
