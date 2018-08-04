@@ -37,7 +37,19 @@ a {
 strong {
   padding: 5px;
 }
+.volume-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #mute-button {
-  height: 20px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  margin-left: 5px;
+}
+
+.hidden {
+  display: none;
 }
