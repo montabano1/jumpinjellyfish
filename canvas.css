@@ -11,6 +11,7 @@ main {
   width: 100%;
   background-image: url('assets/sand.jpg');
   background-size: cover;
+  background-blend-mode: darken;
 }
 .everything {
   margin: auto;
@@ -20,7 +21,12 @@ main {
 .header {
   padding-top: 15px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  font-weight: bold;
+
 }
 .footer {
   width: 100%;
@@ -31,7 +37,10 @@ main {
   font-size: 24px;
 }
 h1 {
-  font-family: fantasy;
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
 }
 a {
   padding:5px;
